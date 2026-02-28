@@ -127,7 +127,7 @@ function initContactForm() {
         showNotification('🎉 Thank you! We\'ll contact you within 2 hours. Redirecting to WhatsApp...', 'success');
 
         setTimeout(() => {
-            window.open(`https://wa.me/919876543210?text=${waMessage}`, '_blank');
+            window.open(`https://wa.me/918142093420?text=${waMessage}`, '_blank');
             btn.innerHTML = originalHTML;
             btn.style.background = '';
             btn.disabled = false;
@@ -258,3 +258,4 @@ window.addEventListener('scroll', () => {
         heroVisual.style.transform = `translateY(${scrolled * 0.1}px)`;
     }
 });
+
